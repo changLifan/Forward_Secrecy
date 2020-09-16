@@ -1,9 +1,5 @@
 111
 222
-13820636756@163.com
-clfclf1995
-clfclf1995
-13820636756@163.com
 
 Forward_Secrecy
 
@@ -29,9 +25,8 @@ https://blog.csdn.net/hello_world_qwp/article/details/80857558
 
 
 2. 配置用户名密码
-git config --global user.name  "changLifan"  
-git config --global user.email  "13820636756@163.com"
+git config --global user.name  ""  
+git config --global user.email  "@163.com"
 
-user.name=changLifan
-user.email=13820636756@163.com
+
 

@@ -1,0 +1,84 @@
+针对IBD和BDD的需求约束验证主要包括了以下两个部分：
+1.针对约束条件，通过自己的输入判断该条件是否成立
+举一个简单的例子：
+F=m*a
+若输入F=20,m=10,a=2则该式子是成立的
+
+2.将所有的约束条件提取出来，通过Z3约束求解器判断是否存在冲突
+
+
+
+// StateVertex
+public class StateVertex_txt extends StateVertex{
+	
+	@Override
+	public void changeProperty(List<MObject> elements, int row, String value) {
+		if (elements.size() == 1 && elements.get(0) instanceof StateVertex) {
+			StateVertex modelElement = (StateVertex) elements.get(0);
+			switch(row) {
+			case 1:
+				modelElement.setLocalProperty("StateName", value);
+				break;
+			case 2:
+				modelElement.setLocalProperty("StateValues", value);
+				break;
+			String name = modelElement.getLocalProperty("StateName");
+			String[] strs = modelElement.getLocalProperty("StateValues").split("");
+			name += "\n\n";
+			for (String str : strs) {
+				name += str + "\n";
+			}
+			modelElement.setName(name);
+			}
+		}
+	}
+	
+	
+	@Override
+	public void update(List<MObject> elements, IModulePropertyTable table) {
+		if (elements.size() == 1 && elements.get(0) instanceof StateVertex) {
+			StateVertex modelElement = (StateVertex) elements.get(0);
+			table.addProperty("StateName", modelElement.getLocalProperty("StateName"));
+			table.addProperty("StateValues", modelElement.getLocalProperty("StateValues"));
+		}
+	}
+	
+
+package org.modelio.hello1.command;
+
+import java.util.List;
+
+import org.modelio.api.module.propertiesPage.IModulePropertyTable;
+import org.modelio.vcore.smkernel.mapi.MObject;
+
+public class StateVertex {
+
+	public void changeProperty(List<MObject> elements, int row, String value) {
+		// do nothing
+	}
+	
+	public void update(List<MObject> elements, IModulePropertyTable table) {
+		// do nothing
+	}
+
+	public void setLocalProperty(String string, String value) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public void setName(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String getLocalProperty(String string) {
+		// TODO Auto-generated method stub
+		String name = string;
+		return name;
+	}
+	
+	
+}
+
+

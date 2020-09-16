@@ -1,0 +1,5 @@
+('d:\\software\\python\\python-3.4.4\\python-3.4.4\\lib\\site-packages\\winpexpect-1.6-py3.4.egg',
+ None,
+ {'*.pyw', '*.pyc', '*.pyd', 'EGG-INFO', '*.py'},
+ 'DATA',
+ [])

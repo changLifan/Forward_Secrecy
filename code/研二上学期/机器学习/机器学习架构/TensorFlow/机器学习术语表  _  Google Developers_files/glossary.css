@@ -1,0 +1,123 @@
+/* Drop display of empty description row */
+.devsite-product-description-row {
+  display: none;
+}
+
+h2.glossary {
+  border: none;
+  padding-top: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+h2.hide-from-toc {
+  border-bottom: none;
+  border-top: 1px solid #ebebeb;
+  padding-top: 1%;
+  margin-bottom: 1px;
+}
+
+a.glossary-anchor {
+  display: block;
+  padding-top: 40px;
+}
+
+/* Styling for tables in sparse representation section */
+/* Use two-column layout if not on phone */
+@media screen and (min-width: 720px) {
+  #sparse-dense-tables {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 2;
+    column-width: 45%;
+  }
+
+  #sparse-dense-tables table {
+    break-after: column;
+  }
+}
+
+#sparse-dense-tables table caption {
+  background: none;
+}
+
+#sparse-dense-tables table tr.elided-rows td {
+  text-align: center;
+}
+
+.glossary-icon-container {
+  float: right;
+  position: relative;
+  top: -34px;
+}
+
+/* Push glossary icons 40px to the left
+ * to match 40px of right padding
+ * applied to devsite-heading elements
+ */
+devsite-heading + .glossary-icon-container {
+  right: 40px;
+}
+
+.glossary-icon {
+  color: transparent;
+  float: left;
+  font-size: 5px;
+  position: relative;
+}
+
+.glossary-icon::after {
+  background-color: white;
+  position: absolute;
+  left: 0;
+}
+
+.glossary-icon[title='Fairness'], .glossary-icon[data-title='Fairness'] {
+  font-size: 7px;
+  top: 4px;
+}
+
+.glossary-icon[title='Fairness']::after, .glossary-icon[data-title='Fairness']::after {
+  color: initial;
+  content: '⚖️';
+  font-size: 25px;
+  text-align: center;
+  width: 32px;
+}
+
+.glossary-icon[title='Google Cloud']::after, .glossary-icon[data-title='Google Cloud']::after {
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  width: 37px;
+  background-image: url(https://www.gstatic.com/images/branding/product/1x/google_cloud_48dp.png);
+  background-size: 28px 28px;
+  height: 29px;
+}
+
+.glossary-icon[title='Reinforcement Learning'], .glossary-icon[data-title='Reinforcement Learning'] {
+  font-size: 7px;
+  top: 4px;
+  right: 24px;
+}
+
+.glossary-icon[title='Reinforcement Learning']::after, .glossary-icon[data-title='Reinforcement Learning']::after {
+  color: rgb(139, 0, 0);
+  content: 'RL';
+  font-size: 25px;
+  text-align: center;
+  width: 32px;
+  margin-right: 16px;
+}
+
+.glossary-icon[title='TensorFlow']::after, .glossary-icon[data-title='TensorFlow']::after {
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  width: 30px;
+  background-image: url(https://developers.google.com/site-assets/logo-tensorflow.svg);
+  background-size: 26px 26px;
+  height: 28px;
+}

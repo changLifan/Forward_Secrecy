@@ -1,0 +1,128 @@
+anr的原因
+阻塞线程：主线程，生命周期的子线程
+超过时间：
+用户输入/特定操作
+ANR问题的类型
+Input dispatching 超时
+用户输入事件处理超时
+主线程对输入事件5秒没有处理完毕（前提是：要有用户输入事件）
+窗口获取焦点超时
+焦点应用在五秒内没有获得窗口焦点（关注生命周期函数）
+BroadcastReceiver执行超时
+主线程在执行BroadcastReceiver 的onReceive函数时10/60 
+异步处理广播，没有调用finish()
+service 各生命周期函数执行超时
+生命周期函数在20秒内没有执行完毕
+onStart  OnCreat OnBind执行超过20秒没有返回就会触发anr
+contentprovide 相关操作执行超时    
+没有在规定时间没返回
+如何避免ANR
+不要假设一个操作不耗时
+避免将耗时操作放在主线程
+数据库操作
+初始化数据和空间太多
+频繁创建线程
+加载过大的图片
+对大数据排序和循环操作
+过多广播
+大对象的传递和共享
+访问网络
+频繁进行Binder调用
+
+如何分析anr
+问自己三个问题
+应用程序主线程在做什么
+死锁
+主线程阻塞的调用堆栈：kernel.log发现由mmc驱动错误影响I/O
+出现死循环的ANR：循环终止条件设计的不好，持续执行
+低性能的调用堆栈：性能问题（将耗时操作放在主线程）
+Native（24页特殊：系统问题）：等待下一个应用
+……
+阻塞
+死循环
+低性能
+CPU占用率多高
+应用、应用的服务端、系统服务、系统IOWait(内存缓存写入磁盘)、等时候CPU占用率过高？
+单核设备CPU 占用率100%？
+多核设备只启动一个CPU（为了省电）? CPU热插拔
+多核设备的CPU占用率如何?
+内存使用量多高
+应用out of memory
+应用频繁GC
+GC时间时候过长
+应用内存使用量时候够高
+系统内存剩余多少
+系统内存脏页是否过多
+系统是否出现……
+
+ANR的相关log
+文件夹：
+TestCycle 和 gmlogger……文件夹
+Binder system_app
+dropbox 文件夹（内存泄露）对应查看unix时间戳
+文件：events.log  system.log  kernel.log
+
+system.log中的信息
+ANR发生的第一现场
+根据ANR类型找输入事件类型（找anr第一现场）
+input event dispatching timed out sending to ……
+boardcast ： time out of boardcast boardcastRecord
+ANR进程名称和pid 
+窗口获取焦点超时
+PID = 0 说明进程已经死亡
+ANR 类别
+CPU平局负载：load：5/10分钟内有多少进程等待CPU调度
+CPU统计的时间段：CPU usage from ^ to 
+每个进程的CPU占用率：system_server
+总CPU占用率: TOTAL(热插拔设备不一定准确）
+线程CPU占用率
+system.log中的信息
+应用崩溃导致anr
+OOM
+LMK
+nativeCrash
+JavaCrash
+应用相关进程死亡导致anr
+contact 与acore
+camera与camera
+main.log
+反复输出同一段log
+camera已经退出，HAL层仍在工作
+死循环
+应用自己输出的log是否异常
+多个应用打出相同的异常信息（大量的I/O异常）
+GC时间时候过长
+trace.log
+线程状态：
+主线程阻塞的原因
+不可中断的睡眠
+死锁、阻塞、死循环、等待GC、高耗时操作
+nativePollOnce是主线程正常的消息循环
+
+PS.log
+进程信息
+启动太多线程
+anr时，各个应用的内存使用量
+导致异常的应用
+异常的线程状态
+线程状态
+S：可中断的睡眠
+R
+D
+Z
+X
+T暂停
+screenshot中的信息
+发生问题的时间
+
+kernel.log中的信息
+LMK：lowMemoryKiller :允许启动尽可能多应用，过多杀死
+内存碎片或内存耗尽：kernel调用LMK杀死后台应用
+特殊异常信息
+binder.log
+binder transcation：
+outgoing  transcation 和incoming  transcation
+from 3076:3076 to 2687:2847
+pending transcation: system server
+system service 有16个Binder线程响应客户端请求
+ \\192.168.24.10\访问共享文件夹 

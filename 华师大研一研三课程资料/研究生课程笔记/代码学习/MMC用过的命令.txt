@@ -1,0 +1,1002 @@
+clf@clf-HP-EliteDesk-800-G3-TWR:~$ history 
+  987  git difftool HMIView/info/Phev/energymonitormainwindow.cpp
+  988  git difftool HMIView/info/Phev/energymonitormainwindow.h
+  989  git difftool HMIView/info/Phev/gasmonitoraveragefuel.h
+  990  git checkout HMILibrary/*
+  991  git status
+  992  git checkout HMIControl/include/eventiddef.h
+  993  git diff HMIControl/include/eventiddef.h
+  994  git diff HMIView/info/Phev/gasmonitoraveragefuel.h
+  995  git checkout HMIView/info/Phev/gasmonitoraveragefuel.h
+  996  git status
+  997  git diff HMIView/info/Phev/energymonitormainwindow.h
+  998  git checkout HMIView/info/Phev/energymonitormainwindow.h
+  999  git status
+ 1000  git difftool HMIView/resources/connecteddaimages.qrc
+ 1001  git checkout HMIView/resources/connecteddaimages.qrc
+ 1002  git status 
+ 1003  git diff > tmp
+ 1004  git status 
+ 1005  git diff HMIView/info/Phev/energymonitorcharge.cpp HMIView/info/Phev/energymonitorcharge.h HMIView/info/Phev/energymonitormainwindow.cpp > 1.patch
+ 1006  git status 
+ 1007  git pull origin 
+ 1008  git checkout HMIView/info/Phev/*
+ 1009  git status 
+ 1010  git pull origin 
+ 1011  git status 
+ 1012  git reset HEAD~imx6dl-yocto-2.1.1-gl-common
+ 1013  git reset HEAD imx6dl-yocto-2.1.1-gl-common
+ 1014  git status 
+ 1015  git pull origin 
+ 1016  git pull 
+ 1017  git checkout .
+ 1018  git add HMIControl/Info/Phev/phevstatebase.cpp HMILibrary/phevdbusmanager.cpp HMIView/info/Phev/gasmonitoraveragefuel.cpp HMIView/manager/propertypool.cpp
+ 1019  git checkout .
+ 1020  git status 
+ 1021  git reset HEAD~1
+ 1022  git status 
+ 1023  git checkout .
+ 1024  git status 
+ 1025  git pull
+ 1026  git status 
+ 1027  git pull
+ 1028  git status 
+ 1029  git reset HEAD~!
+ 1030  git reset HEAD~1
+ 1031  git status 
+ 1032  git pull
+ 1033  git status 
+ 1034  git pull
+ 1035  git checkout .
+ 1036  git pull
+ 1037  git status 
+ 1038  git reset HEAD~1
+ 1039  git status 
+ 1040  git reset HEAD~1
+ 1041  git status 
+ 1042  git reset HEAD~1
+ 1043  git status 
+ 1044  git pull
+ 1045  git status 
+ 1046  git checkout .
+ 1047  git status 
+ 1048  git checkout .
+ 1049  git status 
+ 1050  git checkout --  ../CameraHMI/camerahmidef.h ../CameraHMI/camerahmilib.cpp
+ 1051  git status 
+ 1052  git pull origin 
+ 1053  git status 
+ 1054  git pull origin 
+ 1055  git status 
+ 1056  git pull origin 
+ 1057  git status 
+ 1058  git pull origin 
+ 1059  git status 
+ 1060  git diff ConnectedHMI.pro
+ 1061  git status 
+ 1062  clear
+ 1063  git status 
+ 1064  git add .
+ 1065  git status 
+ 1066  git commit -m "
+ 1067  dialog
+ 1068  "
+ 1069  git status 
+ 1070  git pull
+ 1071  git status 
+ 1072  git pull origin 
+ 1073  git reset HEAD~1
+ 1074  git status 
+ 1075  git reset HEAD imx6dl-yocto-2.1.1-gl-common
+ 1076  git status 
+ 1077  git pull origin 
+ 1078  git status 
+ 1079  git checkout .
+ 1080  git status 
+ 1081  git pull origin 
+ 1082  git status 
+ 1083  git reset HEAD~!
+ 1084  git reset HEAD~1
+ 1085  git status 
+ 1086  git checkout .
+ 1087  git status 
+ 1088  git reset HEAD~1
+ 1089  git status 
+ 1090  git pull origin 
+ 1091  git checkout .
+ 1092  git pull origin 
+ 1093  git status 
+ 1094  git pull origin 
+ 1095  git fetch ssh:
+ 1096  git status 
+ 1097  clear
+ 1098  git status 
+ 1099  git diff HMIView/info/Phev/chargingAmountBase.cpp
+ 1100  git add HMIView/info/Phev/chargingAmountBase.cpp
+ 1101  git status 
+ 1102  git pull origin 
+ 1103  git status 
+ 1104  git reset HEAD~1
+ 1105  git status 
+ 1106  git reset HEAD~1
+ 1107  git status 
+ 1108  git pull origin 
+ 1109  git checkout .
+ 1110  git pull origin 
+ 1111  git status 
+ 1112  git pull origin 
+ 1113  git status 
+ 1114  git pull origin 
+ 1115  git status 
+ 1116  git pull origin 
+ 1117  git status 
+ 1118  clear
+ 1119  sudo ./linux-runvbs.sh mfgtool2-yocto-mx-daplus-emmc.vbs
+ 1120  更改预空调的空调模式设定值
+ 1121  计划模式“预空调传输数据规范”表参考
+ 1122  预空调的空调模式设置请参阅“空调前传输数据规格”表
+ 1123  计划编辑标志参见“空调前传输数据规范”表
+ 1124  预先空调预先空调ON / OFF设置更改
+ 1125  计划模式“预空调传输数据规范”表参考
+ 1126  请参阅时间表编号“预空调传输数据规格”表
+ 1127  进度状态参见“预空调传输数据规范”表
+ 1128  计划编辑标志参见“空调前传输数据规范”表
+ 1129  history |grep "scp"
+ 1130  scp -P 9000 info_service amity@111.111.11.111:/mnt/hgfs/D
+ 1131  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1132  git pul ori
+ 1133  git pull origin 
+ 1134  cd workspace/MMC/sources/meta-thundersoft/recipes-hmi/ConnectedHMI/ConnectedHMI/
+ 1135  git status 
+ 1136  git pull origin 
+ 1137  git status 
+ 1138  git pull origin 
+ 1139  git status 
+ 1140  git pull origin 
+ 1141  git status 
+ 1142  git pull origin 
+ 1143  git status 
+ 1144  git pull origin 
+ 1145  git status 
+ 1146  git pull origin 
+ 1147  git status 
+ 1148  cd ../
+ 1149  git status 
+ 1150  git pull origin 
+ 1151  git status
+ 1152  git checkout gundam-y-2.1-imx6dl-feat-360l
+ 1153  git status
+ 1154  git pull
+ 1155  git status
+ 1156  git log
+ 1157  gitk
+ 1158  git status
+ 1159  git pull origin 
+ 1160  clear
+ 1161  git status
+ 1162  git checkout .
+ 1163  git status
+ 1164  git status 
+ 1165  git checkout imx6dl-yocto-2.1.1-gl-common
+ 1166  git checkout .
+ 1167  git checkout imx6dl-yocto-2.1.1-gl-common
+ 1168  git status 
+ 1169  git checkout .
+ 1170  git status 
+ 1171  cd 
+ 1172  cd workspace/MMC/
+ 1173  repo sync -c --no-tags -j8
+ 1174  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1175  sync
+ 1176  la
+ 1177  ls
+ 1178  ls -a
+ 1179  ls
+ 1180  ll-a
+ 1181  ls -a
+ 1182  ls -l
+ 1183  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1184  ]
+ 1185  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1186  sync
+ 1187  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1188  syc
+ 1189  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1190  sync
+ 1191  git pull origin 
+ 1192  git checkout .
+ 1193  git pull origin 
+ 1194  git status 
+ 1195  git pull origin 
+ 1196  git status 
+ 1197  git checkout HMIView/*
+ 1198  git status 
+ 1199  git pull origin 
+ 1200  git status 
+ 1201  git diff HMIView/info/Phev/baseresume*
+ 1202  git diff HMIView/info/Phev/gasBaseResume.*
+ 1203  git status 
+ 1204  git add HMIView/*
+ 1205  git status 
+ 1206  git reset HEAD *
+ 1207  git status 
+ 1208  git add HMIView/info/Phev/*
+ 1209  git status 
+ 1210  git reset HEAD~1
+ 1211  git status 
+ 1212  git pull origin 
+ 1213  git status 
+ 1214  git difftool .
+ 1215  git status 
+ 1216  git checkout HMIView/info/Phev/baseresume.* HMIView/info/Phev/gasBaseResume.*
+ 1217  git status 
+ 1218  git checkout HMIControl/Diag/FactoryDiag/factorydiagscenario.cpp
+ 1219  git status 
+ 1220  git diff > tmp
+ 1221  git status 
+ 1222  git pull origin 
+ 1223  git status 
+ 1224  git checkout HMIView/info/Phev/*
+ 1225  git status 
+ 1226  git diff HMIView/info/Phev/airSettingListView.cpp
+ 1227  git status 
+ 1228  sync
+ 1229  git status 
+ 1230  git diff HMIView/info/Phev/airSettingListView.cpp
+ 1231  git diff HMIView/info/Phev/chargeTimeListView.cpp
+ 1232  git status 
+ 1233  git checkout HMIControl/Diag/FactoryDiag/factorydiagscenario.cpp
+ 1234  git status 
+ 1235  git add HMIView/info/*
+ 1236  git status 
+ 1237  git commit -m "
+ 1238  MEBugID3045
+ 1239  [IssueID]:MEBugID3045
+ 1240  [Component]:PHEV
+ 1241  [Module]:HMI
+ 1242  [Type]:CODE,4B45
+ 1243  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1244  [OpenSourceInfo]:
+ 1245  [DependsOn]:
+ 1246  [RootCause]:
+ 1247  [Solution]:
+ 1248  [Risk&Impact]:MEBugID3045
+ 1249  [DetailInfo]:MEBugID3045
+ 1250  "
+ 1251  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1252  git status 
+ 1253  git add HMIView/info/Phev/airSettingListView.cpp
+ 1254  git status 
+ 1255  git commit --amend 
+ 1256  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1257  git status 
+ 1258  git add HMIView/info/Phev/chargeTimeListView.cpp
+ 1259  git commit --amend 
+ 1260  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1261  git pull origin 
+ 1262  git status 
+ 1263  git pull origin 
+ 1264  git checkout .
+ 1265  git pull origin 
+ 1266  git status 
+ 1267  git pull origin 
+ 1268  git status 
+ 1269  git pull origin 
+ 1270  git status 
+ 1271  git diff .
+ 1272  scp -P 9000 /ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1273  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1274  sudo ./linux-runvbs.sh mfgtool2-yocto-mx-daplus-emmc.vbs
+ 1275  git checkout .
+ 1276  git pull origin 
+ 1277  git checkout .
+ 1278  git pull origin 
+ 1279  cd ../../././../
+ 1280  cd ../
+ 1281  history |grep repo
+ 1282  repo sync -c --no-tags -j8
+ 1283  git checkout .
+ 1284  git pull
+ 1285  scp -P 9000 /ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1286  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1287  cd ../
+ 1288  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1289  ls
+ 1290  cd ~/.config/
+ 1291  ls
+ 1292  rm ls -l
+ 1293  ls -l
+ 1294  ls
+ 1295  rm new
+ 1296  rm -vf  new
+ 1297  rmdir new/
+ 1298  sudo rmdir new/
+ 1299  ls
+ 1300  cd workspaces/
+ 1301  ls
+ 1302  sudo rm Laputa.rar
+ 1303  sudo apt-get install thunderbird-locale-uk thunderbird-locale-vi thunderbird-locale-zh-cn
+ 1304  git checkout .
+ 1305  git pull origin 
+ 1306  git checkout .
+ 1307  git pull origin 
+ 1308  git pull
+ 1309  git checkout .
+ 1310  git status 
+ 1311  git checkout .
+ 1312  git status 
+ 1313  git pull
+ 1314  ls
+ 1315  ssh-keygen -f "/home/amity/.ssh/known_hosts" -R 172.10.10.10
+ 1316  history |grep ssh
+ 1317  history |grep ssh-
+ 1318  ssh root@172.10.10.10
+ 1319  history |grep ssh-
+ 1320  ssh root@172.10.10.10
+ 1321  git checkout .
+ 1322  git pull
+ 1323  git status
+ 1324  git checkout .
+ 1325  git pull
+ 1326  git status
+ 1327  git pull
+ 1328  git log fuelCostShort.cpp
+ 1329  cd ~/workspace/MMC/sources/meta-thundersoft/ts-yocto-sdk
+ 1330  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1331  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1332  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1333  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1334  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1335  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1336  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1337  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1338  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1339  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1340  ls
+ 1341  cd ../
+ 1342  ls
+ 1343  cd recipes-middleware/
+ 1344  ls
+ 1345  cd MeterService/
+ 1346  ls
+ 1347  cd MeterService/
+ 1348  ls
+ 1349  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1350  cd ~/workspace/MMC/sources/meta-thundersoft/ts-yocto-sdk
+ 1351  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1352  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1353  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1354  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1355  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1356  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1357  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1358  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1359  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1360  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1361  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1362  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1363  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1364  ~/Qt5.11.1/Tools/QtCreator/bin/qtcreator.sh
+ 1365  ssh -p 9000 amity@111.111.11.11
+ 1366  scp -P 9000 ~/workspace/MMC/sources/meta-thundersoft/recipes-hmi/ConnectedHMI/build-ConnectedHMI-laputa_QT_5_6_2_qt5-Debug/ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1367  git status ssh -p 9000 amity@111.111.11.11
+ 1368  ssh -p 9000 amity@111.111.11.11
+ 1369  history |grep branch
+ 1370  history |grep br
+ 1371  git pull ori
+ 1372  git pull 
+ 1373  git status 
+ 1374  cd ../
+ 1375  git status 
+ 1376  git pull origin 
+ 1377  cd ConnectedHMI/
+ 1378  git status 
+ 1379  git diff HMIView/resources/connecteddaimages.qrc
+ 1380  git status 
+ 1381  git diff HMIView/resources/connecteddaimages.qrc
+ 1382  git status 
+ 1383  git reset HEAD  .
+ 1384  git status 
+ 1385  git diff ConnectedHMI.pro
+ 1386  git checkout .
+ 1387  git diff ConnectedHMI.pro
+ 1388  git status 
+ 1389  git diff > tn
+ 1390  git status 
+ 1391  git diff HMIView/resources/connecteddaimages.qrc
+ 1392  git status 
+ 1393  git diff HMIControl/Info/infostatebase.cpp
+ 1394  git diff .
+ 1395  git status 
+ 1396  git pull origin 
+ 1397  git add HMIView/info/infohomewidget.cpp HMIView/info/infohomewidget.ui HMIView/resources/connecteddaimages.qrc
+ 1398  git status 
+ 1399  git pull origin 
+ 1400  git commit -m "
+ 1401  RedmineID14999
+ 1402  [IssueID]:RedmineID14999
+ 1403  [Component]:PHEV
+ 1404  [Module]:HMI
+ 1405  [Type]:CODE,4B45
+ 1406  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1407  [OpenSourceInfo]:
+ 1408  [DependsOn]:
+ 1409  [RootCause]:
+ 1410  [Solution]:
+ 1411  [Risk&Impact]:RedmineID14999
+ 1412  [DetailInfo]:RedmineID14999
+ 1413  "
+ 1414  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1415  git status 
+ 1416  git diff HMIView/info/infohomewidget.cpp
+ 1417  git add HMIView/info/infohomewidget.cpp
+ 1418  git commit --amend 
+ 1419  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1420  git add HMIView/info/infohomewidget.cpp
+ 1421  git commit --amend 
+ 1422  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1423  git commit -m "
+ 1424  MEBugID2931
+ 1425  [IssueID]:MEBugID2931
+ 1426  [Component]:PHEV
+ 1427  [Module]:HMI
+ 1428  [Type]:CODE,4B45
+ 1429  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1430  [OpenSourceInfo]:
+ 1431  [DependsOn]:
+ 1432  [RootCause]:
+ 1433  [Solution]:
+ 1434  [Risk&Impact]:MEBugID2931
+ 1435  [DetailInfo]:MEBugID2931
+ 1436  "
+ 1437  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1438  git commit -m "
+ 1439  MEBugID2936
+ 1440  [IssueID]:MEBugID2936
+ 1441  [Component]:PHEV
+ 1442  [Module]:HMI
+ 1443  [Type]:CODE,4B45
+ 1444  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1445  [OpenSourceInfo]:
+ 1446  [DependsOn]:
+ 1447  [RootCause]:
+ 1448  [Solution]:
+ 1449  [Risk&Impact]:MEBugID2936
+ 1450  [DetailInfo]:MEBugID2936
+ 1451  "
+ 1452  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1453  git commit --amend 
+ 1454  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1455  git status 
+ 1456  git commit -m "
+ 1457  MEBugID2936
+ 1458  [IssueID]:MEBugID2936
+ 1459  [Component]:PHEV
+ 1460  [Module]:HMI
+ 1461  [Type]:CODE,4B45
+ 1462  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1463  [OpenSourceInfo]:
+ 1464  [DependsOn]:
+ 1465  [RootCause]:
+ 1466  [Solution]:
+ 1467  [Risk&Impact]:MEBugID2936
+ 1468  [DetailInfo]:MEBugID2936
+ 1469  "
+ 1470  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1471  git commit -m "
+ 1472  MEBugID2953
+ 1473  [IssueID]:MEBugID2953
+ 1474  [Component]:PHEV
+ 1475  [Module]:HMI
+ 1476  [Type]:CODE,4B45
+ 1477  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1478  [OpenSourceInfo]:
+ 1479  [DependsOn]:
+ 1480  [RootCause]:
+ 1481  [Solution]:
+ 1482  [Risk&Impact]:MEBugID2953
+ 1483  [DetailInfo]:MEBugID2953
+ 1484  "
+ 1485  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1486  git status 
+ 1487  git diff
+ 1488  git gui
+ 1489  git diff
+ 1490  git status 
+ 1491  git pull origin 
+ 1492  git status 
+ 1493  git add HMIView/info/Phev/energymonitormainwindow.cpp HMIView/info/Phev/energymonitorcharge.cpp
+ 1494  git commit -m "
+ 1495  MEBugID2955
+ 1496  [IssueID]:MEBugID2955
+ 1497  [Component]:PHEV
+ 1498  [Module]:HMI
+ 1499  [Type]:CODE,4B45
+ 1500  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1501  [OpenSourceInfo]:
+ 1502  [DependsOn]:
+ 1503  [RootCause]:
+ 1504  [Solution]:
+ 1505  [Risk&Impact]:MEBugID2955
+ 1506  [DetailInfo]:MEBugID2955
+ 1507  "
+ 1508  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1509  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1510  git status 
+ 1511  git add HMIView/info/Phev/energymonitorcharge.cpp
+ 1512  git commit --amend 
+ 1513  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1514  git diff
+ 1515  git checkout .
+ 1516  git diff
+ 1517  git log -5
+ 1518  git diff
+ 1519  git status 
+ 1520  git add HMIView/info/Phev/energymonitorcharge.cpp
+ 1521  git commit -m "
+ 1522  MEBugID2955
+ 1523  [IssueID]:MEBugID2955
+ 1524  [Component]:PHEV
+ 1525  [Module]:HMI
+ 1526  [Type]:CODE,4B45
+ 1527  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1528  [OpenSourceInfo]:
+ 1529  [DependsOn]:
+ 1530  [RootCause]:
+ 1531  [Solution]:
+ 1532  [Risk&Impact]:MEBugID2955
+ 1533  [DetailInfo]:MEBugID2955
+ 1534  "
+ 1535  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common
+ 1536  git commit -m "
+ 1537  fix MEBugID3046
+ 1538  [IssueID]:MEBugID3046
+ 1539  [Component]:PHEV
+ 1540  [Module]:HMI
+ 1541  [Type]:CODE,4B45
+ 1542  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1543  [OpenSourceInfo]:
+ 1544  [DependsOn]:
+ 1545  [RootCause]:
+ 1546  [Solution]:
+ 1547  [Risk&Impact]:charge amount func
+ 1548  [DetailInfo]:MEBugID3046"
+ 1549  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1550  git commit -m "1"
+ 1551  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1552  git status
+ 1553  git add HMIView/info/Phev/energymonitormainwindow.cpp 
+ 1554  git commit -m "
+ 1555  MEBugID3152
+ 1556  [IssueID]:MEBugID3152
+ 1557  [Component]:PHEV
+ 1558  [Module]:HMI
+ 1559  [Type]:CODE,4B45
+ 1560  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1561  [OpenSourceInfo]:
+ 1562  [DependsOn]:
+ 1563  [RootCause]:
+ 1564  [Solution]:
+ 1565  [Risk&Impact]:MEBugID3152
+ 1566  [DetailInfo]:MEBugID3152
+ 1567  "
+ 1568  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1569  git add HMIView/info/Phev/energymonitormainwindow.cpp 
+ 1570  git commit --amend 
+ 1571  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1572  git commit -m "
+ 1573  MEBugID3156
+ 1574  [IssueID]:MEBugID3156
+ 1575  [Component]:PHEV
+ 1576  [Module]:HMI
+ 1577  [Type]:CODE,4B45
+ 1578  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1579  [OpenSourceInfo]:
+ 1580  [DependsOn]:
+ 1581  [RootCause]:
+ 1582  [Solution]:
+ 1583  [Risk&Impact]:MEBugID3156
+ 1584  [DetailInfo]:MEBugID3156
+ 1585  "
+ 1586  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1587  git status 
+ 1588  git add HMIControl/Info/Phev/phevtravelstate.cpp HMIView/info/Phev/energymonitorcharge.cpp
+ 1589  git commit --amend 
+ 1590  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1591  git status 
+ 1592  git add HMIView/info/Phev/energymonitorcharge.h
+ 1593  git commit --amend 
+ 1594  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1595  git commit -m "
+ 1596  MEBugID3121
+ 1597  [IssueID]:MEBugID3121
+ 1598  [Component]:PHEV
+ 1599  [Module]:HMI
+ 1600  [Type]:CODE,4B45
+ 1601  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1602  [OpenSourceInfo]:
+ 1603  [DependsOn]:
+ 1604  [RootCause]:
+ 1605  [Solution]:
+ 1606  [Risk&Impact]:MEBugID3121
+ 1607  [DetailInfo]:MEBugID3121
+ 1608  "
+ 1609  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1610  gedit&
+ 1611  ls
+ 1612  cd ./
+ 1613  cd ..
+ 1614  ls
+ 1615  cat ConnectedHMI_1.0.0.bb 
+ 1616  git commit -m "                                                     
+ 1617  RedmineID15288
+ 1618  [IssueID]:RedmineID15288
+ 1619  [Component]:PHEV
+ 1620  [Module]:HMI
+ 1621  [Type]:CODE,4B45
+ 1622  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1623  [OpenSourceInfo]:
+ 1624  [DependsOn]:
+ 1625  [RootCause]:
+ 1626  [Solution]:
+ 1627  [Risk&Impact]:RedmineID15288
+ 1628  [DetailInfo]:RedmineID15288
+ 1629  "
+ 1630  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1631  git commit -m "                                                     
+ 1632  RedmineID15285
+ 1633  [IssueID]:RedmineID15285
+ 1634  [Component]:PHEV
+ 1635  [Module]:HMI
+ 1636  [Type]:CODE,4B45
+ 1637  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1638  [OpenSourceInfo]:
+ 1639  [DependsOn]:
+ 1640  [RootCause]:
+ 1641  [Solution]:
+ 1642  [Risk&Impact]:RedmineID15285
+ 1643  [DetailInfo]:RedmineID15285
+ 1644  "
+ 1645  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1646  git commit -m "                                                     
+ 1647  RedmineID15285
+ 1648  [IssueID]:RedmineID15285
+ 1649  [Component]:PHEV
+ 1650  [Module]:HMI
+ 1651  [Type]:CODE,4B45
+ 1652  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1653  [OpenSourceInfo]:
+ 1654  [DependsOn]:
+ 1655  [RootCause]:
+ 1656  [Solution]:
+ 1657  [Risk&Impact]:RedmineID15285
+ 1658  [DetailInfo]:RedmineID15285
+ 1659  "
+ 1660  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1661  git commit -m "                                                     
+ 1662  MEBugID3193,3271,3276,3279
+ 1663  [IssueID]:MEBugID3193,3271,3276,3279
+ 1664  [Component]:PHEV
+ 1665  [Module]:HMI
+ 1666  [Type]:CODE,4B45
+ 1667  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1668  [OpenSourceInfo]:
+ 1669  [DependsOn]:
+ 1670  [RootCause]:
+ 1671  [Solution]:
+ 1672  [Risk&Impact]:MEBugID3193,3271,3276,3279
+ 1673  [DetailInfo]:MEBugID3193,3271,3276,3279
+ 1674  "
+ 1675  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1676  git commit --amend 
+ 1677  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1678  git commit --amend 
+ 1679  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1680  git commit -m "                                                     
+ 1681  MEBugID3271
+ 1682  [IssueID]:MEBugID3271
+ 1683  [Component]:PHEV
+ 1684  [Module]:HMI
+ 1685  [Type]:CODE,4B45
+ 1686  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1687  [OpenSourceInfo]:
+ 1688  [DependsOn]:
+ 1689  [RootCause]:
+ 1690  [Solution]:
+ 1691  [Risk&Impact]:MEBugID3271
+ 1692  [DetailInfo]:MEBugID3271
+ 1693  "
+ 1694  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1695  git status 
+ 1696  git diff HMIView/info/Phev/energymonitormainwindow.cpp
+ 1697  git status 
+ 1698  git diff HMIView/info/Phev/energymonitormainwindow.cpp
+ 1699  git status 
+ 1700  git diff HMIView/info/Phev/chargemonitormainwindow.cpp
+ 1701  git checkout HMIView/info/Phev/chargemonitormainwindow.cpp
+ 1702  git status 
+ 1703  git diff HMIView/info/Phev/energymonitormainwindow.cpp
+ 1704  git diff HMIView/info/Phev/energymonitorcharge.cpp
+ 1705  git diff HMIView/info/Phev/energymonitorcharge.h
+ 1706  git diff HMIView/info/Phev/energymonitorcharge*
+ 1707  git checkout  HMIView/info/Phev/energymonitorcharge*
+ 1708  git diff HMIView/info/Phev/energymonitorcharge*
+ 1709  git status 
+ 1710  git diff HMIView/info/Phev/*
+ 1711  git status 
+ 1712  git diff HMIView/info/Phev/*
+ 1713  git difftool HMIView/info/Phev/*
+ 1714  git difftool .
+ 1715  git status 
+ 1716  git add HMIControl/* HMIView/info/Phev/* HMIView/manager/propertypool.cpp HMIView/propertiesdef.h
+ 1717  git status 
+ 1718  git pull origin 
+ 1719  git status 
+ 1720  git merge --abort
+ 1721  git status 
+ 1722  git pull 
+ 1723  git checkout .
+ 1724  git status 
+ 1725  git merge --abort 
+ 1726  git status 
+ 1727  git reset HEAD~1
+ 1728  git status 
+ 1729  git reset HEAD~1
+ 1730  git status 
+ 1731  git reset HEAD~1
+ 1732  git status 
+ 1733  git checkout .
+ 1734  git pull
+ 1735  git status 
+ 1736  git diff .
+ 1737  git add HMIControl/Info/infostatebase.cpp
+ 1738  git status 
+ 1739  git pull origin 
+ 1740  git status 
+ 1741  git pull origin 
+ 1742  git status 
+ 1743  git diff HMIView/info/Phev/energymonitormainwindow.cpp
+ 1744  git status 
+ 1745  git difftool .
+ 1746  git pull origin 
+ 1747  git status 
+ 1748  git checkout .
+ 1749  git status 
+ 1750  git checkout .
+ 1751  git pull origin 
+ 1752  git status 
+ 1753  git diff HMIView/info/Phev/energymonitormainwindow.cpp
+ 1754  git status 
+ 1755  git pull origin 
+ 1756  git status 
+ 1757  git difftool .
+ 1758  git status 
+ 1759  git checkout HMIView/info/Phev/energymonitormainwindow*
+ 1760  git status 
+ 1761  git commit -m "
+ 1762  MEBugID3170
+ 1763  [IssueID]:MEBugID3170
+ 1764  [Component]:PHEV
+ 1765  [Module]:HMI
+ 1766  [Type]:CODE,4B45
+ 1767  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1768  [OpenSourceInfo]:
+ 1769  [DependsOn]:
+ 1770  [RootCause]:
+ 1771  [Solution]:
+ 1772  [Risk&Impact]:MEBugID3170
+ 1773  [DetailInfo]:MEBugID3170
+ 1774  "
+ 1775  git add HMIView/info/Phev/*
+ 1776  git commit -m "
+ 1777  MEBugID3170
+ 1778  [IssueID]:MEBugID3170
+ 1779  [Component]:PHEV
+ 1780  [Module]:HMI
+ 1781  [Type]:CODE,4B45
+ 1782  [ITChecklistAddress]:http://111.111.11.11/svn/Laputa/4.DevelopLibrary/09.E7_Software%20Integration%20Test(IT)/Feature/Info/PHEV/PHEV_ITCheckList.xlsx
+ 1783  [OpenSourceInfo]:
+ 1784  [DependsOn]:
+ 1785  [RootCause]:
+ 1786  [Solution]:
+ 1787  [Risk&Impact]:MEBugID3170
+ 1788  [DetailInfo]:MEBugID3170
+ 1789  "
+ 1790  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1791  git status 
+ 1792  git add HMIView/info/Phev/settingChargeTime.cpp
+ 1793  git commit --amend 
+ 1794  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1795  git status 
+ 1796  git add HMIView/info/Phev/airSettingList.cpp
+ 1797  git commit --amend 
+ 1798  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1799  git status 
+ 1800  git add HMIView/info/Phev/settingChargeTime.cpp
+ 1801  git commit --amend 
+ 1802  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1803  git status 
+ 1804  git add HMIView/info/Phev/settingChargeTime.cpp
+ 1805  git commit --amend 
+ 1806  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1807  git status 
+ 1808  git add HMIView/info/Phev/groupSelectList.cpp
+ 1809  git commit --amend 
+ 1810  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1811  git status 
+ 1812  git add HMIView/info/Phev/chargingAmountBase.cpp
+ 1813  git commit --amend 
+ 1814  git push origin HEAD:refs/for/imx6dl-yocto-2.1.1-gl-common --no-thin
+ 1815  git status 
+ 1816  git pull
+ 1817  git status 
+ 1818  git pull
+ 1819  git status 
+ 1820  git pull
+ 1821  git status 
+ 1822  git diff .
+ 1823  git pull
+ 1824  git status 
+ 1825  git diff HMIView/info/Phev/energyflow.cpp HMIView/info/Phev/energyflow.h
+ 1826  git checkout HMIView/info/Phev/energyflow.h
+ 1827  git add HMIView/info/Phev/energyflow.cpp
+ 1828  git status 
+ 1829  git difftool HMIView/info/Phev/funcSelectedList.cpp
+ 1830  git add HMIView/info/Phev/funcSelectedList.cpp
+ 1831  git status 
+ 1832  git statq
+ 1833  git status 
+ 1834  git pull 
+ 1835  git status 
+ 1836  git pull 
+ 1837  git status 
+ 1838  git checkout .
+ 1839  git status 
+ 1840  git reset HEAD~1
+ 1841  git status 
+ 1842  git pull
+ 1843  git checkout .
+ 1844  git pull
+ 1845  git status 
+ 1846  git checkout .
+ 1847  git status 
+ 1848  cd .
+ 1849  cd ..
+ 1850  git status 
+ 1851  git checkout .
+ 1852  git status 
+ 1853  git pull origin 
+ 1854  git status 
+ 1855  git pull origin 
+ 1856  git status 
+ 1857  git reset HEAD~1
+ 1858  git status 
+ 1859  git reset HEAD~1
+ 1860  git status 
+ 1861  git pull
+ 1862  git checkout .
+ 1863  git pull
+ 1864  git status 
+ 1865  git pull origin 
+ 1866  git status 
+ 1867  git add ConnectedHMI/HMIView/info/Phev/energyflow.cpp ConnectedHMI/HMIView/info/Phev/funcSelectedList.cpp
+ 1868  git status 
+ 1869  git pull origin 
+ 1870  git status 
+ 1871  git difftool .
+ 1872  git status 
+ 1873  git diff ConnectedHMI/HMILibrary/cdealerdiagdbusmanager.cpp ConnectedHMI/HMILibrary/dbusinforeports.cppConnectedHMI/HMILibrary/radiodbusmanager.cpp  
+ 1874  git status 
+ 1875  git diff ConnectedHMI/HMILibrary/cdealerdiagdbusmanager.cpp
+ 1876  git checkout ConnectedHMI/HMILibrary/cdealerdiagdbusmanager.cpp
+ 1877  git status 
+ 1878  git diff ConnectedHMI/HMILibrary/dbusinforeports.cpp ConnectedHMI/HMILibrary/radiodbusmanager.cpp
+ 1879  git checkout  ConnectedHMI/HMILibrary/dbusinforeports.cpp ConnectedHMI/HMILibrary/radiodbusmanager.cpp
+ 1880  git status 
+ 1881  git diff ConnectedHMI/HMIView/info/infohomewidget.cpp
+ 1882  git add ConnectedHMI/HMIControl/Info/* ConnectedHMI/HMIView/info/*
+ 1883  git status 
+ 1884  git diff ConnectedHMI/HMIView/info/Phev/funcSelectedList.cpp
+ 1885  git add ConnectedHMI/HMIView/info/Phev/funcSelectedList.cpp
+ 1886  git pull
+ 1887  git status 
+ 1888  git diff ConnectedHMI/HMIView/info/infohomewidget.cpp
+ 1889  git add ConnectedHMI/HMIView/info/infohomewidget.cpp
+ 1890  git status 
+ 1891  git checkout .
+ 1892  git pull
+ 1893  git status 
+ 1894  git checkout .
+ 1895  git pull
+ 1896  history 
+ 1897  git branch -a|grep 0630
+ 1898  git checkout gundam-y-2.1-imx6dl-rel-20190630
+ 1899  git status 
+ 1900  git pull
+ 1901  git branch 
+ 1902  git log
+ 1903  hsit
+ 1904  history 
+ 1905  git branch -a|grep gl
+ 1906  git checkout imx6dl-yocto-2.1.1-gl-common
+ 1907  git status 
+ 1908  git branch -a|grep
+ 1909  git branch -a|grep 0630
+ 1910  git checkout gundam-y-2.1-imx6dl-rel-20190630
+ 1911  git pull
+ 1912  git status 
+ 1913  git diff .
+ 1914  git status 
+ 1915  git diff .
+ 1916  git status 
+ 1917  git pull
+ 1918  git status 
+ 1919  git diff 
+ 1920  git checkout imx6dl-yocto-2.1.1-gl-common
+ 1921  git status 
+ 1922  git pull
+ 1923  git status 
+ 1924  git log
+ 1925  clear
+ 1926  scp -P 9000 /ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1927  scp -P 9000 ConnectedHMI  amity@111.111.11.11:/mnt/hgfs/D
+ 1928  source environment-setup-cortexa9hf-neon-poky-linux-gnueabi
+ 1929  cd
+ 1930  ssh -p 9000 amity@111.111.11.11
+ 1931  ssh -p 9000 amity@111.111.11.11
+ 1932  cd
+ 1933  cd workspace/MMC/sources/meta-thundersoft/recipes-hmi/ConnectedHMI/
+ 1934  git status 
+ 1935  git reset 
+ 1936  git status 
+ 1937  git reset 
+ 1938  git status 
+ 1939  git pull
+ 1940  git checkout .
+ 1941  git pull
+ 1942  git status 
+ 1943  git pull
+ 1944  git status 
+ 1945  git reset HEAD~1
+ 1946  git checkout .
+ 1947  git status 
+ 1948  git reset HEAD~2
+ 1949  git status 
+ 1950  git pull
+ 1951  git checkout .
+ 1952  git pull
+ 1953  git status 
+ 1954  git pull
+ 1955  git status 
+ 1956  git pull
+ 1957  git status 
+ 1958  git pull
+ 1959  gpg -d MY2X.tar.gz.gpg | tar -zxf -
+ 1960  gpg -d MY21.tar.gz.gpg | tar -zxf -
+ 1961  cd MY21
+ 1962  repo sync --local
+ 1963  ls
+ 1964  sudo ./anyconnect-linux64-4.6.01103-core-vpn-webdeploy-k9.sh 
+ 1965  sudo apt-get remove 
+ 1966  sudo ./anyconnect-linux64-4.6.01103-core-vpn-webdeploy-k9.sh 
+ 1967  sudo ./
+ 1968  /home/clf/
+ 1969  cd /home/clf
+ 1970  ls
+ 1971  /home/clf/anyconnect-linux64-4.6.01103-core-vpn-webdeploy-k9.sh
+ 1972  sudo /home/clf/anyconnect-linux64-4.6.01103-core-vpn-webdeploy-k9.sh
+ 1973  sudo su -
+ 1974  apt-get update
+ 1975  sudo apt-get update
+ 1976  sudo su -
+ 1977  sudo su -echo "deb [trusted=yes] h ps://<VZHJVD>:<WOyaoxiabanle0607.>@info-ar factory.gm.com/ar factory/info-ubuntu-18.04 xenial info " >> /etc/apt/sources.list.d/info-sources.list
+ 1978  sudo su -
+ 1979  sudo apt-get update
+ 1980  apt-get update
+ 1981  sudo vim /etc/apt/sources.list.d/info-sources.list
+ 1982  apt-get update
+ 1983  sudo apt-get update
+ 1984  sudo apt-get install libssl-dev bison python-mako liblz4-tool lib32stdc++6 autoconf m4 libxml2-utils u-boot-
+ 1985  sudo apt-get install gperf zip unzip gcc-multilib g++-multilib libc6-dev-i386 libstdc++6 lib32ncurses5-dev ccache libgl1-
+ 1986  history 
+clf@clf-HP-EliteDesk-800-G3-TWR:~$ 

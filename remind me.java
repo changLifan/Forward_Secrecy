@@ -29,4 +29,15 @@ git config --global user.name  ""
 git config --global user.email  "@163.com"
 
 
+配置本地git 
+https://blog.csdn.net/hello_world_qwp/article/details/80857558
+
+https://blog.csdn.net/ezreal_tao/article/details/81609883
+
+https://blog.csdn.net/weixin_41287260/article/details/90111027
+
+1. Git GUI Here -> Clone Existing Repository 
+2. 
+Source Location : git 链接（Http；链接）
+Target Directory: 本地目录名字
 
